@@ -31,9 +31,9 @@ public class ColorManager {
 
     private static final ColorManager INSTANCE = new ColorManager();
     
-    public static final RGB SINGLE_LINE_COMMENT = new RGB(128, 128, 0);
-    public static final RGB KEYWORD = new RGB(150, 0, 0);
-    public static final RGB STRING = new RGB(0, 128, 0);
+    public static final RGB SINGLE_LINE_COMMENT = new RGB(125, 140, 147);
+    public static final RGB KEYWORD = new RGB(103, 140, 177);
+    public static final RGB STRING = new RGB(236, 118, 0);
 
     protected Map colorTable = new HashMap(10);
 
